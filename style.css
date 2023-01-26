@@ -7,6 +7,7 @@ header,footer {
     list-style: none;
     display: inline-block;
     font-style: italic;
+    max-width: 100%
     
     
 
@@ -44,13 +45,14 @@ h1 {
 
 .lowlink {
     color: rgb(185, 0, 0);
-    float: right;
+    padding-left: 1050px;
     
 
 }
 
 #hero {
     width: 80%;
+    margin: 150px;
     
 }
 
@@ -94,6 +96,8 @@ h1 {
 
 footer {
     text-align: center;
+    max-height: 100%;
+    max-width: 100%;
     
 
 }

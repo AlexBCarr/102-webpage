@@ -1,7 +1,6 @@
 header,footer {
     background-color: rgb(241, 227, 138);
-    width: 100%;
-    height: 100px;
+    height: 100%;
 }
 
  li {
@@ -37,11 +36,16 @@ h1 {
 
 .toplink {
     color: rgb(185, 0, 0);
+    
+    
+    
    
 }
 
 .lowlink {
     color: rgb(185, 0, 0);
+    float: right;
+    
 
 }
 
@@ -51,21 +55,41 @@ h1 {
 }
 
 #one {
-    width: 40%;
+    max-width: 30%;
+    display: left;
+    
+   
+    
 }
 
 #two {
-    width: 40%;
+    max-width: 30%;
+    float: right;
     
+     
+    
+}
+
+#first {
+    color: black;
+    text-align: center;
+    
+}
+
+#third, #fourth {
+    max-width: 30%;
+    
+    
+
+}
+
+#fourth {
+    float: right;
 }
 
 .bottom {
     display: inline-block;
 
-}
-
-p {
-    color: black;
 }
 
 footer {

@@ -57,16 +57,19 @@ h1 {
 }
 
 #one {
-    max-width: 30%;
+    max-width: 50%;
     display: left;
+    
     
    
     
 }
 
 #two {
-    max-width: 30%;
+    max-width: 1000%;
     float: right;
+    height: 450px;
+    padding-left: 50px; 
     
      
     
@@ -75,7 +78,13 @@ h1 {
 #first {
     color: black;
     text-align: center;
+    padding-bottom: 100px;
     
+}
+
+#second {
+    padding-bottom: 100px;
+    text-align: center; 
 }
 
 #third, #fourth {
@@ -85,8 +94,17 @@ h1 {
 
 }
 
+#third {
+  padding-top: 100px;
+  text-align: center;
+  padding-left: 100px;
+}
+
 #fourth {
     float: right;
+    padding-right: 200px;
+    padding-bottom: 100px;
+    
 }
 
 .bottom {

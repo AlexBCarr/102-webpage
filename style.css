@@ -52,8 +52,12 @@ h1 {
 
 #hero {
     width: 80%;
-    margin: 150px;
-    
+    margin: 150px; 
+    border-color: rgb(207, 120, 20);
+    border-width: 15px;
+    border-style: double;
+    //border-radius: 200px;
+   
 }
 
 #one {

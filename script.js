@@ -10,10 +10,10 @@ function sayHello(){
     return
   } else {
     document.write(" Names are fundamental when meeting new people!");
+    userName = prompt("May I please know your name");
   }
   return usersName
 }
-
 
 
 function dadJoke(){
@@ -34,6 +34,27 @@ function dadJoke(){
   }
   return userInput; 
 
+}
+
+
+function bQuiz(){
+  let myAnswer = 3;
+  let userGuess = prompt("Three friends bought Burgers, how many Burgers are there?");
+  console.log(userGuess);
+
+  
+  console.log(myAnswer);
+
+  
+  if (userGuess == myAnswer){
+    document.write("Great job math wiz.")
+  } else if (userGuess > myAnswer){
+    document.write("Too High");
+  } else if (userGuess < myAnswer){
+    document.write("Too Low");
+  } else {
+    document.write("I Can't see where we went wrong");
+  }  
 }
 
 

@@ -75,7 +75,7 @@ function burQuiz(){
   
 
   while (userGuess != 3){
-    userGuess = prompt("How many Burgers?");
+    userGuess = prompt("Three friends bought Burgers, how many Burgers are there?");
   }    
 
   
